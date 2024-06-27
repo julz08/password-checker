@@ -1,17 +1,3 @@
-from hashlib import shake_128
-
-
-test = 'James'
-first_char = test[0]
-
-print(first_char.isupper())
-
-# islower()
-
-test.find('a')
-print(test.find('a'))
-# returns index if it finds it
-
 # step 1: 
 r1 = False
 r2 = False
@@ -37,7 +23,7 @@ if fc_pass.isupper() == True: # checks if stars with uppercase letter
 else:
     print("Your password DOES NOT start with an uppercase!")
 
-if r1 == True and r2 == True and r3 == True:
+if r1 and r2 and r3 == True:
     print('Accepted password!')
 else:
     print('Rejected password.')
@@ -88,7 +74,3 @@ if s1 == True and s2 == True and s3 == True and s4 == True and s5 == True:
     print('Accepted password!')
 else:
     print('Rejected password.')
-
-    
-
-
